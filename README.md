@@ -14,7 +14,7 @@ O json_teste.py levanta um servidor web na porta 8081, pronto para receber requi
 
 Para criação das chaves JWT foi utilizado o módulo PyJWT. O Flask tem, entretanto, um módulo JWT integrado, chamado Flask-JWT. Pode ser que o uso do Flask-JWT seja mais prático, porém isso não foi testado.
 
-Abaixo estão exemplos de consultas, utilizando o httpie como cliente, e os arquivos de JSON de exemplo. Pode consultar pode ser utilizado qualquer navegador de Internet ou biblioteca que suporte requisições HTTP.
+Abaixo estão exemplos de consultas, utilizando o httpie como cliente, e os arquivos de JSON de exemplo. Pode ser utilizado qualquer navegador ou biblioteca que suporte requisições HTTP.
  
 Obtenção de token:
 http POST http://127.0.0.1:8081/api/auth < exemplo_autenticacao.json
