@@ -6,7 +6,7 @@ Suporta as consultas e retornos previstos na interface de contabilização padr�
 
 Para executar, sincronize todos os arquivos, execute:
 
-<br><code>python3 json_teste.py</code><br>
+<code>python3 json_teste.py</code><br>
 
 É necessário ter o Python 3 instalado, e também os módulos que constam nos imports.
 
