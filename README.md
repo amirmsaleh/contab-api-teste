@@ -16,7 +16,7 @@ Para criação das chaves JWT foi utilizado o módulo PyJWT. O Flask tem, entret
 
 Abaixo estão exemplos de consultas, utilizando o httpie como cliente, e os arquivos de JSON de exemplo. Pode ser utilizado qualquer navegador ou biblioteca que suporte requisições HTTP.
  
-Obtenção de token:
+Obtenção de token:<br>
 <br><code>http POST http://127.0.0.1:8081/api/auth < exemplo_autenticacao.json</code><br>
  
 Os dados de autenticação para obtenção do token estão no arquivo INI
