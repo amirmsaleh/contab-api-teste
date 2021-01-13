@@ -18,7 +18,7 @@ Abaixo estão exemplos de consultas, utilizando o httpie como cliente, e os arqu
  
 Obtenção de token:
 
-<br><code>http POST http://127.0.0.1:8081/api/auth < exemplo_autenticacao.json</code><br>
+<code>http POST http://127.0.0.1:8081/api/auth < exemplo_autenticacao.json</code><br>
  
 Os dados de autenticação para obtenção do token estão no arquivo INI.
  
@@ -26,8 +26,8 @@ Antes de executar os processos abaixo, é necessário obter o token e colocá-lo
 
 Consulta de lotes disponíveis para contabilização:
 
-<br><code>http POST http://127.0.0.1:8081/api/contab < exemplo_consulta_lotes.json</code><br>
+<code>http POST http://127.0.0.1:8081/api/contab < exemplo_consulta_lotes.json</code><br>
  
 Contabilização de um determinado lote:
 
-<br><code>http POST http://127.0.0.1:8081/api/contab < exemplo_contab.json</code><br>
+<code>http POST http://127.0.0.1:8081/api/contab < exemplo_contab.json</code><br>
