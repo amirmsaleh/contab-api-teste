@@ -8,7 +8,7 @@ Para executar, sincronize todos os arquivos, execute:
 
 python3 json_teste.py
 
-É necessário ter o Python 3 instalado, e também os módulos que constam nos inserts.
+É necessário ter o Python 3 instalado, e também os módulos que constam nos imports.
 
 O json_teste.py levanta um servidor web na porta 8081, pronto para receber requisições HTTP.
 
