@@ -1,0 +1,7 @@
+{
+	"processo": "consulta_lotes",
+	"access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhY21lLmludHJhIiwiaWF0IjoxNjEwNTQ2Mjc5LCJleHAiOjE2MTA2MzI2NzksInN1YiI6ImFjbWUiLCJ1c2VybmFtZSI6InVzdWFyaW8xIn0.EvwWQSJXg7fMDhRuh0eHOM5AeZfIMZcjhynMTIbVkYs", 
+	"dinicial": "2020-08-27",
+	"empresa": "7171",
+	"dfinal": "2020-09-27"
+}
