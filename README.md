@@ -6,7 +6,7 @@ Suporta as consultas e retornos previstos na interface de contabilização padr�
 
 Para executar, sincronize todos os arquivos, execute:
 
- <code>python3 json_teste.py</code>
+<br><code>python3 json_teste.py</code><br>
 
 É necessário ter o Python 3 instalado, e também os módulos que constam nos imports.
 
@@ -16,15 +16,15 @@ Para criação das chaves JWT foi utilizado o módulo PyJWT. O Flask tem, entret
 
 Abaixo estão exemplos de consultas, utilizando o httpie como cliente, e os arquivos de JSON de exemplo. Pode ser utilizado qualquer navegador ou biblioteca que suporte requisições HTTP.
  
-Obtenção de token:
+Obtenção de token:<br>
 <code>http POST http://127.0.0.1:8081/api/auth < exemplo_autenticacao.json</code>
  
 Os dados de autenticação para obtenção do token estão no arquivo INI
  
 Antes de executar os processos abaixo, é necessário obter o token e colocá-lo no campo access_token dos arquivos de exemplo
 
-Consulta de lotes disponíveis para contabilização
+Consulta de lotes disponíveis para contabilização<br>
 <code>http POST http://127.0.0.1:8081/api/contab < exemplo_consulta_lotes.json</code>
  
-Contabilização de um determinado lote:
+Contabilização de um determinado lote:<br>
 <code>http POST http://127.0.0.1:8081/api/contab < exemplo_contab.json</code>
